@@ -56,3 +56,6 @@ C:\Users\gilme\Desktop\repos\OpenWeatherMap_Exercise2\OpenWeatherMap_Exercise2\o
 C:\Users\gilme\Desktop\repos\OpenWeatherMap_Exercise2\OpenWeatherMap_Exercise2\obj\Debug\net7.0\OpenWeatherMap_Exercise2.pdb
 C:\Users\gilme\Desktop\repos\OpenWeatherMap_Exercise2\OpenWeatherMap_Exercise2\obj\Debug\net7.0\OpenWeatherMap_Exercise2.genruntimeconfig.cache
 C:\Users\gilme\Desktop\repos\OpenWeatherMap_Exercise2\OpenWeatherMap_Exercise2\obj\Debug\net7.0\ref\OpenWeatherMap_Exercise2.dll
+C:\Users\gilme\Desktop\repos\OpenWeatherMap_Exercise2\OpenWeatherMap_Exercise2\bin\Debug\net7.0\appsettings.json
+C:\Users\gilme\Desktop\repos\OpenWeatherMap_Exercise2\OpenWeatherMap_Exercise2\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\gilme\Desktop\repos\OpenWeatherMap_Exercise2\OpenWeatherMap_Exercise2\bin\Debug\net7.0\Microsoft.Extensions.Configuration.UserSecrets.dll

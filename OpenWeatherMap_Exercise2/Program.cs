@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json.Linq;
 
 
 namespace OpenWeatherMap_Exercise2
@@ -7,10 +8,15 @@ namespace OpenWeatherMap_Exercise2
     {
         static void Main(string[] args)
         {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json");
+
+            IConfiguration config = builder.Build();
+            var key = config.GetValue<string>("Key");
 
             var client = new HttpClient();
 
-            var key = "1e6f1692cc86ea36c2e16107939b934b";
             //var city = "Orange Beach";
 
             //var weatherURL = $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={key}&units=imperial";
